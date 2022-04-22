@@ -483,7 +483,7 @@ calls the extra_requirements() function.
             print("As a result, you will only receive half of the points.")
             score += 250
         else:
-            print("Sorry, that answer is incorrect.")
+            print("Sorry, both answers are incorrect.")
             print(
                 "The correct responses were John Adams and Thomas Jefferson.")
             print("As a result, you will not receive any points.")
@@ -503,7 +503,7 @@ calls the extra_requirements() function.
 
     if score >= to_win:
         prize = score * 10
-        print("Congratulations, you have over 1400 points ", end='')
+        print("Congratulations, you have 1400 points or more ", end='')
         print("and have won Jeopardy!")
         print("You will receive $", prize, ".\n", sep='')
 
